@@ -1,5 +1,5 @@
 import React from 'react';
-import { grapql, useStaticQuery } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import styled from 'styled-components';
 import img from '../images/connectBcg.jpeg';
 import Img from 'gatsby-image';
