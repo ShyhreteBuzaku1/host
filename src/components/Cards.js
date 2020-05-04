@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './cards.module.css';
-import cards from '../constants/cards';
+// import cards from '../constants/cards';
+import JSONData from '../constants/cards.json';
+import { FaServer } from 'react-icons/fa';
 
 const Cards = () => {
   return (
@@ -17,28 +19,30 @@ const Cards = () => {
         </div>
         <section className={styles.services}>
           <div className={styles.center}>
-            {cards.map((item, index) => {
+            {JSONData.content.map((item, index) => {
               return (
-                <article key={index} className={styles.service}>
-                  <span
-                    style={{
-                      color: '#fff',
-                      backgroundColor: '#00bcd4',
-                      display: 'inline-block',
-                      width: '100px',
-                      height: ' 100px',
-                      lineHeight: '100px',
-                      textAlign: 'center',
-                      borderRadius: '50%',
-                      fontSize: '32px',
-                    }}
-                  >
-                    {item.icon}
-                  </span>
-                  <h4>{item.title}</h4>
-                  <img>{item.image}</img>
-                  <p>{item.text}</p>
-                </article>
+                <>
+                  <article className={styles.service}>
+                    <span
+                      style={{
+                        color: '#fff',
+                        backgroundColor: '#00bcd4',
+                        display: 'inline-block',
+                        width: '100px',
+                        height: ' 100px',
+                        lineHeight: '100px',
+                        textAlign: 'center',
+                        borderRadius: '50%',
+                        fontSize: '32px',
+                      }}
+                    >
+                      <FaServer />
+                    </span>
+                    <h4 key={`content_item_${index}`}>{item.title}</h4>
+
+                    <p key={`content_item_${index}`}>{item.text}</p>
+                  </article>
+                </>
               );
             })}
           </div>
