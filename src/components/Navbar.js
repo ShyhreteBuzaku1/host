@@ -4,7 +4,7 @@ import styles from '../css/navbar.module.css';
 import { FaAlignRight } from 'react-icons/fa';
 import links from '../constants/links';
 import socialIcons from '../constants/social-icons';
-// import logo from '../images/host.jpg';
+import logo from '../images/host.jpg';
 
 const Navbar = () => {
   const [isOpen, setNav] = useState(false);
@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
-          {/* <img src={logo} alt="backroads logo" /> */}
+          <img src={logo} alt="backroads logo" />
           <button type="button" className={styles.logoBtn} onClick={toogleNav}>
             <FaAlignRight className={styles.logoIcon} />
           </button>
@@ -41,8 +41,24 @@ const Navbar = () => {
           })}
         </div> */}
         \
-        <Link to="/about" className="btn-white">
+        <Link to="/about" className="btn-white" style={{ padding: '6px 20px' }}>
           Login
+        </Link>
+        <Link
+          to="/about"
+          className="btn-white"
+          style={{
+            backgroundColor: '#00bcd4',
+            border: '2px solid #00bcd4',
+            textTransform: ' uppercase',
+            fontSize: '13px',
+            color: ' #fff',
+            padding: '6px 20px',
+            letterSpacing: '0.5px',
+            transition: 'all 0.5s',
+          }}
+        >
+          Sign Up
         </Link>
       </div>
     </nav>

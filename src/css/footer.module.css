@@ -1,6 +1,6 @@
 .footer {
   margin-top: auto;
-  background: var(--mainBlack);
+  background: url('../images/footer-bg.jpg') center/cover no-repeat !important;
   padding: 2rem;
   text-align: center;
   color: var(--mainWhite);

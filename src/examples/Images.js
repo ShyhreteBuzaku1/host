@@ -36,9 +36,9 @@ const Images = () => {
         <h3>Fixed Image</h3>
         <Img fixed={data.fixed.childImageSharp.fixed} />
       </article>
-      <article>
+      {/* <article>
         <h3>Fluid Image/SVG</h3>
-      </article>
+      </article> */}
     </Wrapper>
   );
 };

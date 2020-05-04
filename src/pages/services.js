@@ -5,6 +5,7 @@ import { Link } from 'gatsby';
 import Banner from '../components/Banner';
 import Images from '../examples/Images';
 
+import Services from '../components/Home/Services';
 const services = () => {
   return (
     <Layout2>
@@ -15,6 +16,7 @@ const services = () => {
           </Link>
         </Banner>
       </SimpleHero2>
+      <Services />
       <Images />
     </Layout2>
   );
