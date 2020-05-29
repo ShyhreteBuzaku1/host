@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './cards.module.css';
 // import cards from '../constants/cards';
-import JSONData from '../constants/cards.json';
+import JSONCards from '../constants/cards.json';
 import { FaServer } from 'react-icons/fa';
 
 const Cards = () => {
   return (
     <>
-      <div class="container">
+      <div className="container">
         <div style={{ margin: '50px 50px 0px 50px' }}>
           <span>Hosting Services</span>
           <h2>Services we provide</h2>
@@ -19,7 +19,7 @@ const Cards = () => {
         </div>
         <section className={styles.services}>
           <div className={styles.center}>
-            {JSONData.content.map((item, index) => {
+            {JSONCards.content.map((item, index) => {
               return (
                 <>
                   <article className={styles.service}>

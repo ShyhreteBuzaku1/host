@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Barcelona",
+    "stadiumName": "Camp Nou",
+    "image": "https://content.sportslogos.net/logos/130/4016/thumbs/hy5fvvdkee83gg3r5ym22zr5o.gif",
+    "type": "LaLiga"
+  },
+  {
+    "title": "Arsenal",
+    "stadiumName": "Emirates Stadium",
+    "image": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
+    "type": "Premier League"
+  },
+  {
+    "title": "Aston Villa",
+    "stadiumName": "Villa Park",
+    "image": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
+    "type": "Premier League"
+  },
+  {
+    "title": "Real Betis",
+    "stadiumName": "Benito Villamarín",
+    "image": "https://content.sportslogos.net/logos/130/4028/thumbs/x0e2fl7xk18oj7shbuf6t5nnp.gif",
+    "type": "LaLiga"
+  },
+  {
+    "title": "Juventus",
+    "stadiumName": "Allianz Stadium",
+    "image": "https://www.football-italia.net/sites/default/files/imagecache/club_logo_small/clubs/club_logos/FI_cresticons_Juventus_60x60.png",
+    "type": "Serie A"
+  },
+  {
+    "title": "Roma",
+    "stadiumName": "Stadio Olimpico",
+    "image": "https://www.football-italia.net/sites/default/files/imagecache/club_logo_small/clubs/club_logos/FI_cresticons_Roma_60x60.png",
+    "type": "Serie A"
+  },
+  {
+    "title": "Villarreal",
+    "stadiumName": "Estadio de la Cerámica",
+    "image": "https://content.sportslogos.net/logos/130/4037/thumbs/h2qdg39za55l1mxhftw5p4i9d.gif",
+    "type": "LaLiga"
+  },
+  {
+    "title": "Chelsea",
+    "stadiumName": "Stamford Bridge",
+    "image": "https://resources.premierleague.com/premierleague/badges/70/t8.png",
+    "type": "Premier League"
+  },
+  {
+    "title": "Liverpool",
+    "stadiumName": "Anfield",
+    "image": "https://resources.premierleague.com/premierleague/badges/70/t14.png",
+    "type": "Premier League"
+  },
+  {
+    "title": "Manchester United",
+    "stadiumName": "Old Trafford",
+    "image": "https://resources.premierleague.com/premierleague/badges/70/t1.png",
+    "type": "Premier League"
+  },
+  {
+    "title": "Tottenham Hotspur",
+    "stadiumName": "Tottenham Hotspur Stadium",
+    "image": "https://resources.premierleague.com/premierleague/badges/70/t6.png",
+    "type": "Premier League"
+  },
+  {
+    "title": "West Ham United ",
+    "stadiumName": "London Stadium",
+    "image": "https://resources.premierleague.com/premierleague/badges/70/t21.png",
+    "type": "Premier League"
+  },
+  {
+    "title": "Milan",
+    "stadiumName": "San Siro Stadium",
+    "image": "https://www.football-italia.net/sites/default/files/imagecache/club_logo_small/clubs/club_logos/FI_cresticons_Milan_60x60.png",
+    "type": "Serie A"
+  },
+
+  {
+    "title": "Inter",
+    "stadiumName": "San Siro Stadium",
+    "image": "https://www.football-italia.net/sites/default/files/imagecache/club_logo_small/clubs/club_logos/FI_cresticons_Inter_60x60.png",
+    "type": "Serie A"
+  },
+  {
+    "title": "Udinese",
+    "stadiumName": "Stadio Friuli",
+    "image": "https://www.football-italia.net/sites/default/files/imagecache/club_logo_small/clubs/club_logos/FI_cresticons_Udinese_60x60.png",
+    "type": "Serie A"
+  },
+  {
+    "title": "Genoa",
+    "stadiumName": "Luigi Ferraris",
+    "image": "https://www.football-italia.net/sites/default/files/imagecache/club_logo_small/clubs/club_logos/FI_cresticons_Genoa_60x60.png",
+    "type": "Serie A"
+  },
+  {
+    "title": "Barcelona",
+    "stadiumName": "Camp Nou",
+    "image": "https://content.sportslogos.net/logos/130/4016/thumbs/hy5fvvdkee83gg3r5ym22zr5o.gif",
+    "type": "LaLiga"
+  },
+  {
+    "title": "Real Madrid",
+    "stadiumName": "Santiago Bernabéu Stadium",
+    "image": "https://content.sportslogos.net/logos/130/4017/thumbs/yfhezt5oyr0jbq29u4hp50w63.gif",
+    "type": "LaLiga"
+  },
+  {
+    "title": "Atletico Madrid",
+    "stadiumName": "Wanda Metropolitano",
+    "image": "https://content.sportslogos.net/logos/130/4020/thumbs/402014442017.gif",
+    "type": "LaLiga"
+  },
+
+  {
+    "title": "Valencia",
+    "stadiumName": "Mestalla Stadium",
+    "image": "https://content.sportslogos.net/logos/130/4037/thumbs/h2qdg39za55l1mxhftw5p4i9d.gif",
+    "type": "LaLiga"
+  }
+]

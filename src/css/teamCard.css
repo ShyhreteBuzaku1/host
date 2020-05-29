@@ -1,0 +1,28 @@
+.itemCard {
+  width: 350px;
+  padding: 20px;
+  float: left;
+  margin: 10px;
+  box-shadow: 0 0.4rem 1.6rem 0 rgba(8, 32, 46, 0.15);
+  text-align: center;
+}
+.team img {
+  /* width: 70px; */
+  border-radius: 20px;
+  height: 70px;
+}
+.itemCard p {
+  font-size: 15px;
+}
+
+.itemCard h2 {
+  font-size: 24px;
+}
+.team {
+  text-align: center;
+}
+
+button {
+  width: 200px;
+  margin: 10px;
+}
